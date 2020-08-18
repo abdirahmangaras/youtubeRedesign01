@@ -1,0 +1,224 @@
+/* this website i  builded on screen 1920x1080, it might not same how it appears on your screen and mine, so we will do another section of making it responsive, don't forget to subscribe My Youtube " Youtube.com/AbdirahmanGaras" */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+}
+
+h1 {
+    font-size: 18px !important;
+}
+
+h2 {
+    font-size: 20.5px !important;
+}
+
+h3,
+h4 {
+    font-size: 17px;
+    color: #000000;
+}
+
+h5,
+h6 {
+    font-size: 11px !important;
+    letter-spacing: 0.5px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+
+/* Style Start */
+
+body {
+    background-color: #F9F9F9;
+}
+
+.nav {
+    background: #ffffff;
+    color: #000000;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    padding: 2px;
+    margin-top: -1%;
+    position: fixed;
+    z-index: 4;
+}
+
+.nav .menu {
+    flex: 0.5fr;
+    height: 20px;
+    width: 16px;
+    height: 16px;
+    margin-top: 1.2%;
+}
+
+.nav .ytb {
+    flex: 3fr;
+    padding-right: 200px;
+}
+
+.nav .rightSide {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 1.2%;
+    padding-right: 2px;
+    left: 80%
+}
+
+.nav .rightSide .render,
+.ytApp,
+.bell,
+.prfTop {
+    flex: 0.5fr;
+    padding-right: 30px;
+    height: 20px;
+    width: 16px;
+    height: 16px;
+}
+
+.search {
+    width: 400px;
+    height: 16px;
+    margin-top: 1.2%;
+}
+
+.search-icon {
+    height: 22px;
+    margin-left: -2%;
+    margin-top: 1.2%;
+}
+
+
+/* Aside */
+
+#side {
+    padding-top: 30px;
+    width: 280px;
+    height: 100%;
+    padding-bottom: 70px;
+    background: #ffffff;
+}
+
+.ytHome {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+}
+
+#side .home {
+    background: #c9c9c9d0;
+    height: 32px;
+    padding: 2px;
+}
+
+.ytHome h1 {
+    float: right;
+    width: auto;
+    height: 32px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.ytHome img {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+}
+
+.line {
+    position: absolute;
+    top: 210px;
+    width: 280px;
+    height: 1px;
+    background: #707070;
+}
+
+.sideMiddle {
+    margin-top: 6%;
+}
+
+.sideMiddle .ytHome img {
+    height: 74px;
+    width: 74px;
+    margin-left: -8%;
+}
+
+.sideMiddle .ytHome h1 {
+    margin-top: 20px;
+}
+
+.middleline {
+    position: absolute;
+    top: 550px;
+    width: 280px;
+    height: 1px;
+    background: #707070;
+}
+
+.sideBottom {
+    margin-top: 60px;
+}
+
+.sideBottom .ytHome {
+    margin-top: -20px;
+    padding-bottom: 15px;
+}
+
+
+/* Recomende Videos */
+
+.recommended {
+    position: relative;
+    left: 180px;
+    top: -1100px;
+}
+
+.recommendContainer {
+    display: flex;
+    flex-direction: row;
+    row-gap: 1em;
+    margin-left: 8%;
+    flex-wrap: wrap;
+}
+
+.recommendContainer .thumbnail {
+    width: 260px;
+    height: 150px;
+}
+
+.recommended h2 {
+    margin-left: 120px;
+}
+
+.recomend-content h4 {
+    width: 200px;
+    height: 30px;
+    float: right;
+    position: relative;
+    left: -57px;
+    top: -20px;
+}
+
+.recomend-content h5 {
+    width: 300px;
+    position: relative;
+    left: 40px;
+    height: 10px;
+    top: -6px
+}
+
+.recomend-content .views {
+    margin-top: -5%;
+}
